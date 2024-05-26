@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0; 
+    
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: black;
+}
+.nav{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(37, 36, 36);
+    box-shadow: 0px 2px 9px 0px rgb(255, 255, 255) ;
+}
+.nav ul{
+    display: flex;
+    line-height: 70px;
+    /* float: right; */
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    margin:10px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a:hover{
+    color: rgb(177, 168, 168);
+    text-decoration: underline;
+}
+
+
+.section{
+    display: flex;
+}
+.section img{
+    height: 500px;
+    width: 400px;
+    margin: 100px auto auto 400px;
+} 
+.section hr{
+    height: 500px;
+    margin-top:100px;
+    width: 5px;
+    background-color: rgb(110, 43, 43);
+}
+.section .intro{
+    margin: 300px auto auto 100px;
+    font-size: 20px;
+}
+.section .intro p{
+    padding: 4px;
+}
+.intro div{
+    display: flex;
+    font-size: 40px;
+    
+}
+
+.intro div h3{
+    color: red;
+    margin-left: 10px;
+}
+    
+.skill{
+    border: 2px solid rgb(255, 255, 255);
+    width: 1000px;
+    margin-top: 156px;
+    border-style:dotted;
+    border-radius: 2px;
+    background-color: rgb(172, 166, 73);
+    box-shadow: 8px 8px 25px 3px rgb(151, 152, 75);
+
+}
+.skill h4{
+    margin: 60px auto  auto 100px;
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+}
+.skill ul li a{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 30px -62px 30px 67px;
+    border-color: rgb(20, 16, 11);
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.skill ul li a:hover{
+    color: rgb(122, 114, 114);
+    text-decoration: underline;
+}
+.skill ul li{
+    padding: 50px;
+    margin: 20px;
+    list-style: none;
+   
+}
+.skill ul{
+    display: flex;
+    margin-top: 50px;
+}
+
+.project{
+    border: 2px solid rgb(255, 255, 255);
+    border-style:dotted;
+    border-radius: 2px;
+    width: 1300px;
+    margin-top: 156px;
+    float: right;
+    margin-right: 5px;
+    background-color: rgb(152, 75, 88);
+    box-shadow: 8px 8px 25px 3px rgb(152, 75, 88);
+}
+.project h4{
+    color: rgb(0, 0, 0);
+    margin: 60px auto  auto 100px;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+.project ul li a{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px auto auto 50px;
+    border-color: burlywood;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.project ul li a:hover{
+    color: rgb(122, 114, 114);
+    text-decoration: underline;
+}
+.project ul li{
+    padding: 50px;
+    margin: 20px;
+    list-style: none;
+   
+}
+.project ul{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px;
+
+}
+.contact div{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 64px -21px white;
+}
+.contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.contact ul li a{
+    text-decoration: none;
+    padding: 20px;
+    /* border: 1px solid brown; */
+    border-radius: 34px;
+    margin: 1px 44px 9px 12px;
+    color: rgb(255, 253, 253);
+    box-shadow: 0px 1px 32px 19px rgb(201, 193, 193);
+}
+.contact ul li a:hover{
+    color: rgb(122, 114, 114);
+}
